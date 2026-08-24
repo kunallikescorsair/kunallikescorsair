@@ -1,22 +1,24 @@
-# Hi, I'm Kunal Gurung 
+# Hi, I'm Kunal Gurung
 
-**Machine Learning & Data Science | UTS MDSI Graduate | Applied AI, MLOps and Forecasting**
+**Machine Learning & AI Engineering | UTS MDSI Graduate | RAG, Model Evaluation, MLOps and Forecasting**
 
-I build production-oriented machine learning and AI systems across model evaluation, forecasting, retrieval-augmented generation, NLP, reinforcement learning, data engineering and deployment.
+I build production-oriented machine learning and AI systems across retrieval-augmented generation, model evaluation, forecasting, NLP, reinforcement learning, data engineering and deployment.
 
-My work combines applied research with practical engineering using Python, PyTorch, FastAPI, Docker, Spark and modern ML infrastructure.
+My work combines applied research with practical engineering using Python, PyTorch, FastAPI, Docker, knowledge graphs, vector retrieval and modern ML infrastructure.
 
 ---
 
-## Currently Building
+## Featured Project
 
-### Grounded Graph-RAG Assistant for the National Construction Code
+### Grounded Graph-RAG Assistant for NCC 2025
 
-Developing a grounded AI assistant for navigating the Australian National Construction Code using XML/XSD parsing, hybrid retrieval, graph traversal, citation-aware generation and systematic evaluation.
+Built a production-style Graph-RAG assistant for navigating Australia's National Construction Code using deterministic XML/XSD ingestion, BGE dense retrieval, knowledge-graph expansion, grounded local LLM generation and evidence-level citations.
 
-The project focuses on retrieval quality, grounded answers, citation accuracy, failure analysis and production-oriented RAG architecture.
+The system parses NCC 2025 Volume One into 5,520 canonical evidence records, builds a graph of structural and reference relationships, retrieves top semantic matches and expands them through parent, child, sibling and reference links.
 
-Repository: [`ncc-grounded-graph-rag-kunal`](https://github.com/kunallikescorsair/ncc-grounded-graph-rag-kunal)
+Grounded generation uses Gemma 3 4B through Ollama with deterministic citation validation and `accepted`, `abstained` or `blocked` policy decisions. The complete pipeline is exposed through FastAPI, Streamlit and a CLI, with 210 automated tests.
+
+[Repository](https://github.com/kunallikescorsair/ncc-grounded-graph-rag-kunal)
 
 ---
 
@@ -59,9 +61,10 @@ Designed a custom Gymnasium environment and trained PPO, DQN and A2C agents to o
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat&logo=scikitlearn&logoColor=white)
-![XGBoost](https://img.shields.io/badge/XGBoost-FF6600?style=flat)
+![Hugging Face](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat&logo=huggingface&logoColor=black)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white)
 ![Apache Spark](https://img.shields.io/badge/Apache_Spark-E25A1C?style=flat&logo=apachespark&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
@@ -73,11 +76,11 @@ Designed a custom Gymnasium environment and trained PPO, DQN and A2C agents to o
 <br>
 
 ![SQL](https://img.shields.io/badge/SQL-336791?style=flat&logo=postgresql&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-FF6600?style=flat)
 ![LightGBM](https://img.shields.io/badge/LightGBM-00A86B?style=flat)
 ![CatBoost](https://img.shields.io/badge/CatBoost-FFCC00?style=flat)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)
-![Hugging Face](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat&logo=huggingface&logoColor=black)
 ![Gymnasium](https://img.shields.io/badge/Gymnasium-0081A5?style=flat)
 ![Stable-Baselines3](https://img.shields.io/badge/Stable--Baselines3-000000?style=flat)
 ![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=flat&logo=databricks&logoColor=white)
@@ -87,7 +90,6 @@ Designed a custom Gymnasium environment and trained PPO, DQN and A2C agents to o
 ![GCP](https://img.shields.io/badge/GCP-4285F4?style=flat&logo=googlecloud&logoColor=white)
 ![Airflow](https://img.shields.io/badge/Apache_Airflow-017CEE?style=flat&logo=apacheairflow&logoColor=white)
 ![dbt](https://img.shields.io/badge/dbt-FF694B?style=flat&logo=dbt&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
 ![Visual Studio Code](https://img.shields.io/badge/Visual_Studio_Code-007ACC?style=flat&logo=visualstudiocode&logoColor=white)
 
 </details>
@@ -96,10 +98,10 @@ Designed a custom Gymnasium environment and trained PPO, DQN and A2C agents to o
 
 ## Interests
 
-- Applied AI and retrieval-augmented generation
+- Retrieval-augmented generation and grounded AI
+- AI/ML engineering and production ML systems
 - Machine learning evaluation and reliability
 - Time-series forecasting
-- MLOps and production ML systems
 - Data engineering for machine learning
 - AI agents and tool-using systems
 
