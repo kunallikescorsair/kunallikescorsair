@@ -46,13 +46,19 @@ Built Dockerised FastAPI services for seven-day rain classification and three-da
 
 The project included leak-safe feature engineering, chronological validation, model comparison, threshold optimisation and deployed inference endpoints.
 
+[Experiments Repository](https://github.com/kunallikescorsair/at2-weather-experiments-36120-25sp-25675784) · [FastAPI Repository](https://github.com/kunallikescorsair/at2-weather-api-36120-25sp-25675784)
+
 ### XRP Price Forecasting System
 
 Built an end-to-end forecasting application using XGBoost, time-series features, FastAPI, Docker, live CoinGecko data and Streamlit.
 
+[Repository](https://github.com/kunallikescorsair/advml_group3_at3_fastapi_xrp)
+
 ### Airport Runway Scheduling with Reinforcement Learning
 
 Designed a custom Gymnasium environment and trained PPO, DQN and A2C agents to optimise runway scheduling under stochastic operating conditions.
+
+[Repository](https://github.com/kunallikescorsair/AT3_Airport-Runway-Scheduler-using-Reinforcement-Learning-)
 
 ---
 
