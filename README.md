@@ -1,118 +1,56 @@
 # Hi, I'm Kunal Gurung
 
-**Machine Learning & AI Engineering | UTS MDSI Graduate | RAG, Model Evaluation, MLOps and Forecasting**
+**Data Science | Machine Learning | AI Engineering | Analytics**
 
-I build production-oriented machine learning and AI systems across retrieval-augmented generation, model evaluation, forecasting, NLP, reinforcement learning, data engineering and deployment.
+Master of Data Science and Innovation graduate from the University of Technology Sydney (UTS), based in Sydney, Australia.
 
-My work combines applied research with practical engineering using Python, PyTorch, FastAPI, Docker, knowledge graphs, vector retrieval and modern ML infrastructure.
+I build end-to-end data and AI solutions spanning business analytics, data engineering, machine learning, generative AI, and applied research. My work focuses on reproducible experimentation, reliable model evaluation, and practical implementation—from data pipelines and dashboards to deployed ML APIs and grounded AI applications.
 
----
+## Featured Projects
 
-## Featured Project
+### 1. [End-to-End Retail & Operations Analytics Platform](https://github.com/kunallikescorsair/retail-operations-analytics)
 
-### Grounded Graph-RAG Assistant for NCC 2025
+Developed an analytics platform using Python, PostgreSQL, Snowflake, and Power BI. Processed 99,441 e-commerce orders, designed a 15-table analytics star schema, and built a five-page dashboard covering profitability, inventory, customers, suppliers, and marketing. The platform combines public transactional data with clearly documented synthetic operational data.
 
-Built a production-style Graph-RAG assistant for navigating Australia's National Construction Code using deterministic XML/XSD ingestion, BGE dense retrieval, knowledge-graph expansion, grounded local LLM generation and evidence-level citations.
+### 2. [Grounded Graph-RAG Assistant for NCC 2025](https://github.com/kunallikescorsair/ncc-grounded-graph-rag-kunal)
 
-The system parses NCC 2025 Volume One into 5,520 canonical evidence records, builds a graph of structural and reference relationships, retrieves top semantic matches and expands them through parent, child, sibling and reference links.
+Built a Graph-RAG assistant for navigating Australia's National Construction Code using structured XML ingestion, BGE semantic retrieval, knowledge-graph expansion, and local LLM generation. Processed 5,520 evidence records and implemented citation validation, grounding policies, FastAPI and Streamlit interfaces, and 210 automated tests.
 
-Grounded generation uses Gemma 3 4B through Ollama with deterministic citation validation and `accepted`, `abstained` or `blocked` policy decisions. The complete pipeline is exposed through FastAPI, Streamlit and a CLI, with 210 automated tests.
+### 3. [Cross-Validation Reliability Research](https://github.com/kunallikescorsair/cross-validation-reliability-kaggle-bayesian-melding)
 
-[Repository](https://github.com/kunallikescorsair/ncc-grounded-graph-rag-kunal)
+Investigated the reliability of cross-validation and public leaderboard scores in predicting hidden Kaggle competition performance. Evaluated 3,000 model configurations and 300 leaderboard-scored models across three competitions, applying empirical Bayesian melding to analyse validation bias, uncertainty, and generalisation.
 
----
+[Research Preprint](https://doi.org/10.5281/zenodo.20444585)
 
-## Selected Work
+### 4. [Time-Series Foundation Model Benchmarking](https://github.com/kunallikescorsair/foundation-models-timeseries-forecasting-pile-ghanti)
 
-### Cross-Validation Reliability in Kaggle Competitions
+Contributed to a benchmarking framework comparing TimesFM, Tiny Time Mixer, and Uni2TS against five classical and deep-learning forecasting baselines. Evaluated eight approaches across nine datasets and 18 forecasting tasks, examining accuracy, computational efficiency, and reliability.
 
-Large-scale machine learning research analysing 3,000 model configurations and 300 leaderboard-scored models across three Kaggle competitions.
+### 5. [Sydney Weather ML-as-a-Service API](https://github.com/kunallikescorsair/at2-weather-api-36120-25sp-25675784)
 
-The study evaluates validation bias, leaderboard reliability and model generalisation using an empirical Bayesian melding framework.
+Developed and deployed a Dockerised FastAPI application for seven-day rain classification and three-day precipitation forecasting. Used XGBoost and Random Forest with chronological validation, leak-safe feature engineering, and structured prediction endpoints.
 
-[Preprint](https://doi.org/10.5281/zenodo.20444585) · [Repository](https://github.com/kunallikescorsair/cross-validation-reliability-kaggle-bayesian-melding)
+[Model Experiments](https://github.com/kunallikescorsair/at2-weather-experiments-36120-25sp-25675784)
 
-### Time-Series Foundation Model Benchmarking
+### 6. [Job Hunter AU — Automated Job Discovery](https://github.com/kunallikescorsair/job-hunter-au)
 
-Benchmarked TimesFM, Tiny Time Mixer and Uni2TS against Naive, Seasonal Naive, ARIMA, Prophet and LSTM across finance, energy and retail datasets.
+Built a Python automation system for discovering Australian IT opportunities using JobSpy, configurable role and location filtering, scheduled GitHub Actions, deduplication, and Telegram notifications.
 
-The framework evaluated forecasting accuracy, runtime, memory usage, scalability and model failure behaviour across 18 dataset-horizon tasks.
+## Additional Technical Projects
 
-[Repository](https://github.com/kunallikescorsair/foundation-models-timeseries-forecasting-pile-ghanti)
+- **Reinforcement Learning:** [Airport Runway Scheduling](https://github.com/kunallikescorsair/AT3_Airport-Runway-Scheduler-using-Reinforcement-Learning-) — PPO, DQN, A2C, and custom Gymnasium simulation.
+- **Deep Learning & Computer Vision:** [Attention-Based Image Captioning](https://github.com/kunallikescorsair/dl-image-captioning-flickr8k-pytorch) — PyTorch, CNN-LSTM, attention, and beam search.
+- **Natural Language Processing:** [TechSkillSync](https://github.com/kunallikescorsair/TechSkillSync) — Team project involving semantic skill matching, information retrieval, and occupational taxonomies.
+- **Python Package Development:** [NBA Draft Prediction Package](https://github.com/kunallikescorsair/nba-draft-package-kunal) — Reusable preprocessing, feature engineering, model training, and evaluation utilities.
 
-### Sydney Weather ML-as-a-Service API
+## Technical Skills
 
-Built Dockerised FastAPI services for seven-day rain classification and three-day cumulative precipitation forecasting using historical Open-Meteo data.
+**Data Analytics & Engineering:** Python, SQL, PostgreSQL, Snowflake, Power BI, Apache Spark, Databricks, Airflow, dbt
 
-The project included leak-safe feature engineering, chronological validation, model comparison, threshold optimisation and deployed inference endpoints.
+**Machine Learning & Research:** Scikit-learn, PyTorch, XGBoost, LightGBM, Time-Series Forecasting, Reinforcement Learning, Model Evaluation
 
-[Experiments Repository](https://github.com/kunallikescorsair/at2-weather-experiments-36120-25sp-25675784) · [FastAPI Repository](https://github.com/kunallikescorsair/at2-weather-api-36120-25sp-25675784)
-
-### XRP Price Forecasting System
-
-Built an end-to-end forecasting application using XGBoost, time-series features, FastAPI, Docker, live CoinGecko data and Streamlit.
-
-[Repository](https://github.com/kunallikescorsair/advml_group3_at3_fastapi_xrp)
-
-### Airport Runway Scheduling with Reinforcement Learning
-
-Designed a custom Gymnasium environment and trained PPO, DQN and A2C agents to optimise runway scheduling under stochastic operating conditions.
-
-[Repository](https://github.com/kunallikescorsair/AT3_Airport-Runway-Scheduler-using-Reinforcement-Learning-)
-
----
-
-## Core Technologies
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat&logo=scikitlearn&logoColor=white)
-![Hugging Face](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat&logo=huggingface&logoColor=black)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white)
-![Apache Spark](https://img.shields.io/badge/Apache_Spark-E25A1C?style=flat&logo=apachespark&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)
-
-<details>
-<summary><strong>Additional tools and platforms</strong></summary>
-
-<br>
-
-![SQL](https://img.shields.io/badge/SQL-336791?style=flat&logo=postgresql&logoColor=white)
-![XGBoost](https://img.shields.io/badge/XGBoost-FF6600?style=flat)
-![LightGBM](https://img.shields.io/badge/LightGBM-00A86B?style=flat)
-![CatBoost](https://img.shields.io/badge/CatBoost-FFCC00?style=flat)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)
-![Gymnasium](https://img.shields.io/badge/Gymnasium-0081A5?style=flat)
-![Stable-Baselines3](https://img.shields.io/badge/Stable--Baselines3-000000?style=flat)
-![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=flat&logo=databricks&logoColor=white)
-![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=flat&logo=snowflake&logoColor=white)
-![Azure](https://img.shields.io/badge/Microsoft_Azure-0078D4?style=flat&logo=microsoftazure&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonaws&logoColor=white)
-![GCP](https://img.shields.io/badge/GCP-4285F4?style=flat&logo=googlecloud&logoColor=white)
-![Airflow](https://img.shields.io/badge/Apache_Airflow-017CEE?style=flat&logo=apacheairflow&logoColor=white)
-![dbt](https://img.shields.io/badge/dbt-FF694B?style=flat&logo=dbt&logoColor=white)
-![Visual Studio Code](https://img.shields.io/badge/Visual_Studio_Code-007ACC?style=flat&logo=visualstudiocode&logoColor=white)
-
-</details>
-
----
-
-## Interests
-
-- Retrieval-augmented generation and grounded AI
-- AI/ML engineering and production ML systems
-- Machine learning evaluation and reliability
-- Time-series forecasting
-- Data engineering for machine learning
-- AI agents and tool-using systems
-
----
+**AI & Software Engineering:** RAG, LLMs, Sentence Transformers, FastAPI, Docker, Streamlit, Ollama, Git, GitHub Actions
 
 ## Connect
 
-[LinkedIn](https://www.linkedin.com/in/kunalgurung/) · [GitHub](https://github.com/kunallikescorsair)
+[LinkedIn](https://www.linkedin.com/in/kunalgurung/) | [GitHub](https://github.com/kunallikescorsair)
